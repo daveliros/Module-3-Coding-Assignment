@@ -1,0 +1,167 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: Arial
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #a9dbd4;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Company name */
+  color: #cb1e24;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left: 5px;
+}
+
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  background-color: #c4ddd8;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background:   #dba9b0;
+}
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -38px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+  background-color: transparent;
+  margin: -5px;
+
+}
+
+h2 { /* OUR MENU */
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  color: #cb1e24;
+}
+
+ section { /* Section with content */
+  background-color:   #a1cfb3;
+  padding-left: 20px;
+  padding-right: 10px;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: black;
+}
+#menu-tiles section p { /* Chicken, Sushi and Beef */
+  Color: black ;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+/* END CONTENT DEFAULT VIEW */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+   
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* Home Page */
+  .container .jumbotron {
+  }
+
+  /* End Home Page */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+   
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  
+
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+ 
+ 
+  
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
